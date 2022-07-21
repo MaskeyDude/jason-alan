@@ -8,6 +8,27 @@ body {
     background-color: rgb(210, 210, 250);
 }
 
+::selection {
+    color: rgb(210, 210, 250);
+    background-color: rgba(90, 90, 150);
+}
+
+::-webkit-scrollbar {
+    width: 0.45em;
+    border-radius: 0.8em;
+    background-color: rgb(190, 190, 250);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0.8em;
+    background: rgba(90, 90, 150, 0.4);
+    transition: 0.4s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(50, 205, 50, 0.4);
+}
+
 header {
     /* sizing & positioning */
     width: 100%;
